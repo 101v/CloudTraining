@@ -2,13 +2,13 @@ Cloud Training
 ================
 Date 13 Dec 2021
 ----------------
-(1) Latency
-(2) Disaster Recovery
-(3) Region
-(4) Availibility Zone
+	(1) Latency
+	(2) Disaster Recovery
+	(3) Region
+	(4) Availibility Zone
 
 	
-=> Amazon EC2 (EC2 = Elastic Compute Cloud)
+	Amazon EC2 (EC2 = Elastic Compute Cloud)
 	- Instance type -> Defines Memory(M) and CPU(C) -> t2 - test instance, m - moderate balance ram and cpu, c - more cpu, r - more ram/memory, 
 	- EBS (Elastic Block Storage gives hard disk)
 		- HDD types: Megnatic, General Purpose SSD (GP2, GP3), Provisioned IOPS SSD (IO2, IO3), Throughput optimixed HDD, Cold HDD
