@@ -81,3 +81,16 @@ Date 20 Dec 2021
 		- we can store audit trail of cloud actions in S3 buckets
 		
 	- S3 can store Server access logging too
+	
+31 Dec 2021
+---------------
+	- Route 53 aka DNS
+	-------------------
+	- 53 is default port
+	- DNS: Record Type A => Name to IP record 
+	Record Type: CName => Name to Name record
+	Record Type: Mx Record (Mail Exchange Record)
+	Record Type: NS Record (Name Server Record) - tells where the dns mappings are stored. (multiple NS for master and backup servers)
+	
+	Hosted Zone is used to use already bought domain somewhere else for ex. godaddy
+	Routing Policies: Simple Routing Policy, Latency, Geolocation, Weighted, Failover
