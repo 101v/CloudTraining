@@ -94,3 +94,16 @@ Date 20 Dec 2021
 	
 	Hosted Zone is used to use already bought domain somewhere else for ex. godaddy
 	Routing Policies: Simple Routing Policy, Latency, Geolocation, Weighted, Failover
+	
+3 Jan 2021
+------------------
+	- CName record => Name to Name
+	
+	IAM
+	------
+	- Identity and Access Manager - authentication and authorization
+	- In AWS there is root account and user account. - Root account is Administrator
+	- Two types of access typse in IAM user creation - (1) console (gui, browser) (2) Programatic (CLI, API)
+	Console - need to set password
+	CLI - Access Key, Secret Access Key
+	- Then need to attach policy with user to give permission
