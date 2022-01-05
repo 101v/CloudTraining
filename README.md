@@ -107,3 +107,17 @@ Date 20 Dec 2021
 	Console - need to set password
 	CLI - Access Key, Secret Access Key
 	- Then need to attach policy with user to give permission
+	
+5 Jan 2021
+-------------------
+	- User Group - we can give group level permissions and then add users in group, so users will get those permissions
+	- MFA (Multi factor Authentication) for Root user
+	- For non root users too, MFA can be used
+	
+	AWS CLI
+	---------
+	- command line for AWS operations where we can do activities using commands instead of GUI
+	- Need to install aws cli package
+	- aws configure is the command to store credential secret access key on the local machine
+	- aws help can be used to get help for commands
+	- give piped output of command to less or grep to show data page by page or to search something in command output
