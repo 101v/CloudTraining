@@ -121,3 +121,34 @@ Date 20 Dec 2021
 	- aws configure is the command to store credential secret access key on the local machine
 	- aws help can be used to get help for commands
 	- give piped output of command to less or grep to show data page by page or to search something in command output
+	
+	some exmples
+	-------------
+	aws configure
+	aws ec2 help | less
+	aws ec2 help | grep instance
+	
+	(1) Create instance
+	aws ec2 run-instances --image-id ami-0851b76e8b1bce90b --count 1 --instance-type t2.micro --key-name vishalimorphr --security-group-ids sg-00225d371c854c9c1
+
+	(2) List AMI created by me only
+	aws ec2 describe-images --owners self
+	aws ec2 describe-images --owners 696612176554
+
+	(3) Create S3 bucket
+	aws s3 mb s3://fromclisisvis --region ap-south-1
+
+	(4) Upload and download file in s3 bucket
+	-upload
+	aws s3 cp testupload.txt s3://fromclisisvis/testupload.txt
+	
+	-download
+	 aws s3 cp s3://fromclisisvis/testupload.txt testdownload.txt
+	 
+	(5) upload and download folder in s3 bucket
+	-upload
+	 aws s3 cp dira s3://fromclisisvis/dira/ --recursive
+
+	-download
+	aws s3 cp s3://fromclisisvis/dira/ dirdownload --recursive
+
