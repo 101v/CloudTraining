@@ -152,3 +152,34 @@ Date 20 Dec 2021
 	-download
 	aws s3 cp s3://fromclisisvis/dira/ dirdownload --recursive
 
+7 Jan 2021
+------------
+	aws exams
+	----------
+		basic exam - cloud practicioner
+		Next level associate - Solution Architect, Developer, Sysops
+		Next level - solution architect, devops
+		there are special exams too wx. database related, alexa etc.
+		
+	Preparation of exam
+	-------------------
+		- first list the topics from hardest to easiest
+		- start refering according to that list - refere video training, do practical
+		- service wise question paper and dummy exams like international exam
+		- Read FAQ from AWS site. search like AWS FAQ for EC2 etc.
+		
+	without storing aws access keys on server do programatic access of aws cloud (topic Roles)
+	--------------------------------------------------------------------------------------------
+		- Difference between group and role
+		- using role we can give one aws service the access of another service
+			ex. we can set role with permission where ec2 service can get full access of s3 and we assign that role to ec2 instnce, then from that instance we
+			can access s3 cli commands without giving access key and secret access key (without doing aws configure)
+		- metadata command can be run on ec2 instance command prompt to get meta data of that machine
+			ex. on linux terminal use - curl http://169.254.169.254/latest/meta-data/iam/security-credentials/s3-access-role
+		- Sequence for checking permission : Default deny -> deny -> allow -> deny
+		- policy name: arn: aws: service: region: accountid: resource
+					ex.arn: aws: ec2: eu-west-2: <accountid>: instance/*
+					   arn: aws: ec2: : : bucketname   (here region not required as s3 is global and account id not required as s3 bucket names are unique)
+					   
+		- full form of arn -> amazon resource name			
+		- IAM and S3 services are global not region specific
