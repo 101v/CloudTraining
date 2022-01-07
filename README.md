@@ -122,7 +122,7 @@ Date 20 Dec 2021
 	- aws help can be used to get help for commands
 	- give piped output of command to less or grep to show data page by page or to search something in command output
 	
-	some exmples
+	some examples
 	-------------
 	aws configure
 	aws ec2 help | less
