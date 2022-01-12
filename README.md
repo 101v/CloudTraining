@@ -183,3 +183,12 @@ Date 20 Dec 2021
 					   
 		- full form of arn -> amazon resource name			
 		- IAM and S3 services are global not region specific
+		
+10 Jan 2021
+------------
+	- IAM - AWS has given predefined policies. But we can create custom policies too. 
+	- By creating custom policies we can achieve scenarios like following
+		- User A should be allowed to create/manage instances in Mumbai region only. In any other region he should not be allowed.
+		- User B can only start/stop instances but he should not be allowed to create or terminate instances
+		- User C can only access specific S3 bucket not any other bucket except it
+		- User D can create object in S3 bucket but he can not delete it
