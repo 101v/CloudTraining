@@ -192,3 +192,20 @@ Date 20 Dec 2021
 		- User B can only start/stop instances but he should not be allowed to create or terminate instances
 		- User C can only access specific S3 bucket not any other bucket except it
 		- User D can create object in S3 bucket but he can not delete it
+		
+12 Jan 2021
+------------
+	- VPC - starting with networking basics
+	- IP, Subnet Mask, Gateway, DNS
+	- IP
+		IPV4 - 32 bit
+		IPV6 - 128 bit
+		
+		IPV4
+		-----
+			- How to find subnet mask?
+			- Networkbit, host bit
+			- Partition of network.
+			- Private IP Range and Public IP Range defined world wide. Class A IP, Class B, Class C, Class D, Class E
+			- CIDR range
+			- https://docs.microsoft.com/en-us/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting
