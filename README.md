@@ -95,7 +95,7 @@ Date 20 Dec 2021
 	Hosted Zone is used to use already bought domain somewhere else for ex. godaddy
 	Routing Policies: Simple Routing Policy, Latency, Geolocation, Weighted, Failover
 	
-3 Jan 2021
+3 Jan 2022
 ------------------
 	- CName record => Name to Name
 	
@@ -108,7 +108,7 @@ Date 20 Dec 2021
 	CLI - Access Key, Secret Access Key
 	- Then need to attach policy with user to give permission
 	
-5 Jan 2021
+5 Jan 2022
 -------------------
 	- User Group - we can give group level permissions and then add users in group, so users will get those permissions
 	- MFA (Multi factor Authentication) for Root user
@@ -152,7 +152,7 @@ Date 20 Dec 2021
 	-download
 	aws s3 cp s3://fromclisisvis/dira/ dirdownload --recursive
 
-7 Jan 2021
+7 Jan 2022
 ------------
 	aws exams
 	----------
@@ -184,7 +184,7 @@ Date 20 Dec 2021
 		- full form of arn -> amazon resource name			
 		- IAM and S3 services are global not region specific
 		
-10 Jan 2021
+10 Jan 2022
 ------------
 	- IAM - AWS has given predefined policies. But we can create custom policies too. 
 	- By creating custom policies we can achieve scenarios like following
@@ -193,7 +193,7 @@ Date 20 Dec 2021
 		- User C can only access specific S3 bucket not any other bucket except it
 		- User D can create object in S3 bucket but he can not delete it
 		
-12 Jan 2021
+12 Jan 2022
 ------------
 	- VPC - starting with networking basics
 	- IP, Subnet Mask, Gateway, DNS
