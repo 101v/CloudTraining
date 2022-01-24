@@ -209,3 +209,18 @@ Date 20 Dec 2021
 			- Private IP Range and Public IP Range defined world wide. Class A IP, Class B, Class C, Class D, Class E
 			- CIDR range
 			- https://docs.microsoft.com/en-us/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting
+			
+21 Jan 2022
+---------------
+	- VPC
+	-----
+		- Subnets
+		- Internet Gateway
+		- Route Table
+		
+24 Jan 2022
+-------------
+	- VPC
+	-----
+	- NAT
+	- NAT gateway
