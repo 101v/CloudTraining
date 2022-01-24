@@ -223,4 +223,5 @@ Date 20 Dec 2021
 	- VPC
 	-----
 	- NAT
-	- NAT gateway
+	- NAT gatewa
+	- How elastic IP is different from public IP
