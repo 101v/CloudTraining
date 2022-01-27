@@ -225,3 +225,23 @@ Date 20 Dec 2021
 	- NAT
 	- NAT gatewa
 	- How elastic IP is different from public IP
+	
+27 Jan 2022
+----------------
+	- VPN
+	- Bastion host/Jump host
+	- VPC peering
+		- for peering both networks should have different IP range
+		
+		steps:
+		1. Create peering connection
+		2. Accept peering connection
+		3. Add entry in route table of VPC1
+		4. Add entry in route table of VPC2
+		
+	- Network ACL
+		- It is at subnet level
+		- The lower the rule number higher the precedence of the rule
+		
+	- Ephemeral port range
+		
