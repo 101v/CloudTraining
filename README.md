@@ -223,7 +223,7 @@ Date 20 Dec 2021
 	- VPC
 	-----
 	- NAT
-	- NAT gatewa
+	- NAT gateway
 	- How elastic IP is different from public IP
 	
 27 Jan 2022
