@@ -244,4 +244,25 @@ Date 20 Dec 2021
 		- The lower the rule number higher the precedence of the rule
 		
 	- Ephemeral port range
+	
+31 Jan 2022
+--------------
+	- Database
+	-------------
+		- RDS(sql) and NonRDS(no sql)
+		- RDS: MySql, MSSql, Postgres, MariaDB, Oracle, Aurora
+		- NonRDS: MongoDB, DynamoDB
+		- RDS - two types - (1) OLTP - online transaction processing    (2) OLAP - online analytics processing (OLAP is called data warehouse too)
+		- Example of OLAP - Redshift
+		- DB backups in cloud (1) Manual (2) Automated (maximum 35 days we can keep backup of)
+		- Create DB Subnet groups before creating database
 		
+2 Feb 2022
+-----------
+		- Snapshot of database
+		- Can not delete or share system/automated snapshot
+		- new DB can be restored from snapshot
+			
+		- parameter group to configure DB config parameters ex. max_connections
+		- Red replica of the database can be created (in different region too). But we can not do write oprtation on that db.
+			If we want to write then we need to promote that read replica, so replica/sync will be stopped and that db will then onwards be treated as separate db. 
