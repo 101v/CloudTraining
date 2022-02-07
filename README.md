@@ -264,5 +264,22 @@ Date 20 Dec 2021
 		- new DB can be restored from snapshot
 			
 		- parameter group to configure DB config parameters ex. max_connections
-		- Red replica of the database can be created (in different region too). But we can not do write oprtation on that db.
+		- Read replica of the database can be created (in different region too). But we can not do write oprtation on that db.
 			If we want to write then we need to promote that read replica, so replica/sync will be stopped and that db will then onwards be treated as separate db. 
+			
+4 Feb 2022
+--------------
+		- How to access db from ec2 instance
+		- Modify option for db which allows to change many things like instance type, snapshot policy, change password etc.
+		- Delete the DB, options when deleting - create final snapshot? Retain automated backups?
+		- Elasticache - memcached, Redis
+		- Aurora MySql, Aurora Postgres
+		- How Aurora replicas are different from other DB (mysql etc.) replicas
+		- DynamoDB
+			- NoSql
+			- minimum 3 copies of data
+			- storage unlimited (charges according to usage)
+			- Fast SSD storage
+			- Read Unit, Write Unit
+
+	
