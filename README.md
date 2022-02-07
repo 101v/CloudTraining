@@ -283,3 +283,14 @@ Date 20 Dec 2021
 			- Read Unit, Write Unit
 
 	
+7 Feb 2022
+------------
+		- Replicas in Dynamo DB
+		- Dynamo db is horizontally scaled
+		- Global Table
+		
+		
+		
+		- DMS - Database migration service
+			- Migrate from local to cloud, cloud one region to another region, from mysql to aurora (ie. from one type to another type)
+				- source db, destiantion db and one extra migration server(replication instance)
