@@ -294,3 +294,20 @@ Date 20 Dec 2021
 		- DMS - Database migration service
 			- Migrate from local to cloud, cloud one region to another region, from mysql to aurora (ie. from one type to another type)
 				- source db, destiantion db and one extra migration server(replication instance)
+				
+9 Feb 2022
+-----------
+	- SQS (Simple Queue Service)
+		- visibility timeout - time to process the message - max 12 hours
+		- receive message wait timeout/ long polling - max 20 second
+		- two types of queue - Standard, FIFO
+		
+	- SWF (Simple Workflow Service)
+		- 4 Actors
+			- Workflow Starter
+			- SWF  - over all workflow
+			- Decider - decides which worker will carry on worker
+			- Activity Worker - actual worker
+			
+	- SNS (Simple Notification Service)
+			- How to create billing notification
