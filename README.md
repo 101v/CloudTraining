@@ -301,6 +301,7 @@ Date 20 Dec 2021
 		- visibility timeout - time to process the message - max 12 hours
 		- receive message wait timeout/ long polling - max 20 second
 		- two types of queue - Standard, FIFO
+		- dead letter queue
 		
 	- SWF (Simple Workflow Service)
 		- 4 Actors
@@ -311,3 +312,23 @@ Date 20 Dec 2021
 			
 	- SNS (Simple Notification Service)
 			- How to create billing notification
+
+11 Feb 2022
+------------
+	- SNS (Simple Notification Service)
+		- Create topic
+		- Create subscriber
+	
+	- Cloud Watch
+		- Servicewise matrix
+		- log of database can be seen
+		- cloudwatch event
+			- create rule
+			- scheduling lambda function
+			- schedule start/stop instances
+		- creating custom dashboards
+		
+	- CDN Service (Content Delivery Network) / Cloud Front
+		- 100+ edge locations, separate from Availibility Zones
+		- edge location cache clearance every 24 hours
+		- invalidate request for stale data
