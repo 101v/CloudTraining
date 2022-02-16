@@ -332,3 +332,16 @@ Date 20 Dec 2021
 		- 100+ edge locations, separate from Availibility Zones
 		- edge location cache clearance every 24 hours
 		- invalidate request for stale data
+		
+16 Feb 2022
+-------------
+	- Cloud Formation
+	-----------------
+		- Service to automate cloud infrastructure creation like EC2 instances, load balancer		
+	- Terraform is the tool which targets different clouds to preapre infrastructure so no need to learn cloud specific services.
+	
+	
+	- Chef/Ansible/Puppet - to run commands on different machines, These are deployment tools
+	- CI/CD - Jenkins
+	- Docker
+	- Kubernetes
